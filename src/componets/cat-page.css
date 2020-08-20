@@ -1,0 +1,125 @@
+.external {
+    display: flex;
+}
+.internally {
+    margin: auto;
+    position: center;
+}
+
+.h2-text {
+    font-size: 36px;
+    font-family: "Exo 2.0 Thin", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    position: center;
+}
+
+
+.flex-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container-inner {
+    flex-direction: column;
+    text-align: center;
+    animation: hoverdelay 2s;
+}
+
+.box {
+    display: flex;
+    width: 300px;
+    height: 454px;
+    margin: 40px;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.inner {
+    color: #666666;
+    font-size: 15px;
+    font-family: "TrebuchetMS", sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 23px;
+    text-align: left;
+}
+
+.text-1 {
+    color: #000000;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 5px 0 5px 0;
+}
+
+.text-2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.fat {
+    font-weight: 700;
+}
+
+.a {
+    background-image: url('images/Default.png');
+}
+
+.mass {
+    width: 7em;
+    text-align: center;
+    position: absolute;
+    margin: 370px 0 0 171px;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "TrebuchetMS", sans-serif;
+    font-weight: 500;
+}
+
+.size {
+    margin-bottom: -8px;
+    font-size: 40px;
+}
+
+.footer {
+    font-size: 14px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+    text-align: center;
+}
+.footer_span {
+    color: #138ac6;
+    border-bottom: 2px dashed #138ac6;
+}
+
+.flex-container-inner:hover .footer_span{
+    color: #2ea8e6;
+    border-bottom: 2px dashed #2ea8e6;
+}
+
+.footer_span_disabled {
+    color: #ffff66
+}
+
+.title_click_hover {
+    color: #e62e7a
+}
+
+@keyframes hoverdelay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
