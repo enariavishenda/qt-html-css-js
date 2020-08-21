@@ -1,3 +1,60 @@
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo2/v9/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKsNNC_nps.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo2/v9/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKsPdC_nps.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo2/v9/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKsN9C_nps.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo2/v9/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKsOdC_.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  src: url(http://db.onlinewebfonts.com/t/03e852a9d1635cf25800b41001ee80c7.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  src: url(http://db.onlinewebfonts.com/t/03e852a9d1635cf25800b41001ee80c7.woff)
+    format("woff");
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  src: url(http://db.onlinewebfonts.com/t/03e852a9d1635cf25800b41001ee80c7.eot)
+    format("eot");
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  src: url(http://db.onlinewebfonts.com/t/03e852a9d1635cf25800b41001ee80c7.ttf)
+    format("truetype");
+}
+
 .external {
     display: flex;
 }
@@ -8,7 +65,7 @@
 
 .h2-text {
     font-size: 36px;
-    font-family: "Exo 2.0", sans-serif;
+    font-family: "Exo 2", sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
